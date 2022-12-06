@@ -1,0 +1,46 @@
+//
+//      AutoCAD menu file - D:\AIS Toolset\AIS_TOOLSET.mnu
+//
+
+***MENUGROUP=AIS TOOLSET
+
+***TOOLBARS
+**TB_JHOU_AIS_SEQUENCER
+**JHOU_AIS_SEQUENCER
+**TB_AIS_TOOLSET
+ID_JHOU_AIS_SEQTB [_Toolbar("AIS Toolset", _Floating, _Show, 229, 115, 1)]
+ID_JHOU_AIS_GETINFO [_Button("Get Info", "AIS_GETINFO_16.bmp", "AIS_GETINFO_16.bmp")]^C^C_aisgetinfo 
+ID_JHOU_AIS_FORCEUPDATE [_Button("Force Update", "AIS_FORCE_UPDATE_16.bmp", "AIS_FORCE_UPDATE_16.bmp")]^C^C_aisupdate 
+               [--]
+ID_JHOU_AIS_BIND [_Button("Add Property Binding", "AIS_BIND_DEFINE_16.bmp", "AIS_BIND_DEFINE_16.bmp")]^C^C_binddef 
+ID_JHOU_AIS_OBSUBJ [_Button("Add Observer-Subject Relationship", "ais_observer_subject_16.bmp", "ais_observer_subject_16.bmp")]^C^C_addobsubjrel 
+               [--]
+ID_JHOU_AIS_SEQDEF [_Button("Define Sequence", "AIS_SEQ_DEFINE_16.bmp", "AIS_SEQ_DEFINE_16.bmp")]^C^C_seqdef 
+ID_JHOU_AIS_SEQEDIT [_Button("Edit Sequence", "AIS_SEQ_EDIT_16.bmp", "AIS_SEQ_EDIT_16.bmp")]^C^C_seqedit 
+ID_JHOU_AIS_ADDKEY [_Button("Key Object On/Off", "AIS_KEY_ADD_16.bmp", "AIS_KEY_ADD_16.bmp")]^C^C_mkkey 
+ID_JHOU_AIS_ADDPPT [_Button("Set Key Parameter", "AIS_KEY_PPT_16.BMP", "AIS_KEY_PPT_16.BMP")]^C^C_setkeyparam 
+ID_JHOU_AIS_ADDCHILD [_Button("Add Child Object", "AIS_CHILD_ADD_16.bmp", "AIS_CHILD_ADD_16.bmp")]^C^C_addchild 
+               [--]
+ID_JHOU_AIS_SPIRAL [_Button("Draw spiral Curve", "AIS_SPIRAL_16.bmp", "AIS_SPIRAL_16.bmp")]^C^C_spiral 
+ID_JHOU_AIS_PEDIT2 [_Button("Polyline Enhanced Edit", "AIS_PEDIT2_16.BMP", "AIS_PEDIT2_16.BMP")]^C^C_pedit2 
+ID_JHOU_AIS_INTERPOLATE [_Button("Interpolation", "AIS_INTERPOLATE_16.bmp", "AIS_INTERPOLATE_16.bmp")]^C^C_aisinterpolate 
+ID_JHOU_AIS_DERIVE [_Button("Derivation", "AIS_DERIVE_16.bmp", "AIS_DERIVE_16.bmp")]^C^C_aisderive 
+
+
+***HELPSTRINGS
+ID_JHOU_AIS_SPIRAL [Drawing a spiral curve: SPIRAL]
+ID_JHOU_AIS_BINDDEF [Define a property binding: BINDDEF]
+ID_JHOU_AIS_INTERPOLATE [Generating new object by interpolation: AISINTERPOLATE]
+ID_JHOU_AIS_SEQDEF [Define a sequence composite: SEQDEF]
+ID_JHOU_AIS_DERIVE [Generating new object by derivation: AISDERIVE]
+ID_JHOU_AIS_ADDCHILD [Add child object to a sequence: ADDCHILD]
+ID_JHOU_AIS_GETINFO [Show AIS-specific information of an object: AISGETINFO]
+ID_JHOU_AIS_SEQEDIT [Edit a sequence composite: SEQEDIT]
+ID_JHOU_AIS_BINDEDIT [Edit a property binding: BINDEDIT]
+ID_JHOU_AIS_ADDKEY [Assign an object as key object: MKKEY]
+ID_JHOU_AIS_FORCEUPDATE [Force updating an object: AISUPDATE]
+
+//
+//      End of AutoCAD menu file - D:\AIS Toolset\AIS_TOOLSET.mnu
+//
+

@@ -1,0 +1,20 @@
+;;; VLisp project file [V3.0] AIS3 saved to: AIS3/source on [12/05/2022] 
+(VLISP-PROJECT-LIST
+  :NAME
+  AIS3
+  :OWN-LIST
+  ("core" "math"	"matrix"      "vla"	    "layer"	  "point"
+	  "line"	"pline2d_3d"  "arc_circle"  "spline"	  "curve"
+	  "spiral"	"symbol"      "rules"	    "reactor"	  "relation_mgm"
+	  "sequence"	"ais"	      "stair"	    "io_commands"
+	 )
+  :FAS-DIRECTORY
+  "D:\\AIS3\\bin"
+  :TMP-DIRECTORY
+  "D:\\AIS3\\temp"
+  :PROJECT-KEYS
+  (:BUILD (:OPTIMIZE) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF
