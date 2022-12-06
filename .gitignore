@@ -1,0 +1,5 @@
+# Ignore MacOS .DS_Store
+.DS_Store
+# Ignore AutoLISP compiled object files
+source/*._ls
+temp/**
